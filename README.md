@@ -1,38 +1,16 @@
-# React + TypeScript + Vite
+# Mini-Project: Candidate App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+This project is intended to provide a candidate search using Github profiles.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Acceptance Criteria
 
-## Expanding the ESLint configuration
-
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-* Configure the top-level `parserOptions` property as follows:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommende-typde-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
-
+(provided by Boot Camp)
 GIVEN a candidate search application
 WHEN the candidate search page loads
 THEN the information for one candidate should be displayed, including the candidate's name, username, location, avatar, email, html_url, and company
@@ -50,3 +28,25 @@ WHEN there are no potential candidates
 THEN an appropriate message should be displayed indicating no candidates have been accepted
 WHEN I click the "-" button
 THEN the next candidate's information should be displayed without saving the current candidate
+
+## Usage
+The best way to use this project is through the deployed site: 
+
+## Credits
+I have utilized the resources from edX Boot Camps LLC, including starter code.
+
+## License
+![License Badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+This project is licensed under the MIT license.
+
+[Learn more about this license](https://choosealicense.com/licenses/mit/)
+
+## Tests
+No tests at this time.
+
+## Questions
+If you would like to add to this project please reach me on Github github.com/hookhamk or email me at hookhamk8@gmail.com
+
+---
+
