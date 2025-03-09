@@ -4,13 +4,12 @@ import react from '@vitejs/plugin-react';
 
 dotenv.config();
 
-//https://vitejs.dev/config/
 export default defineConfig({
-  envDir: './env',
+  envDir: './env',  
   plugins: [react()],
   server: {
-    port: 5173, 
-    host: "0.0.0.0" 
+    port: process.env.PORT || 5173,  
+    host: "0.0.0.0",  
+    allowedHosts: ['candidate-github.onrender.com'], 
   }
 });
- 
