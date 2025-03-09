@@ -7,9 +7,6 @@ dotenv.config();
 //https://vitejs.dev/config/
 export default defineConfig({
   envDir: './env',
-  plugins: [react()],
-  define: {
-    "import.meta.env.VITE_GITHUB_TOKEN": JSON.stringify(process.env.VITE_GITHUB_TOKEN),
-  },
+  plugins: [react()]
 });
  
