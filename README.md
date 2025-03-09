@@ -30,7 +30,7 @@ WHEN I click the "-" button
 THEN the next candidate's information should be displayed without saving the current candidate
 
 ## Usage
-The best way to use this project is through the deployed site: 
+The best way to use this project is through the deployed site: https://candidate-github.onrender.com/
 
 ## Credits
 I have utilized the resources from edX Boot Camps LLC, including starter code.
